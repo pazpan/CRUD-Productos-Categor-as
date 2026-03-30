@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- Cuerpo de la pagina-->
+<div class="container mt-5">
+    {% load static %}
+    <h1>CFT Region metropolitana</h1>
+<img src="{% static 'images/logo.png' %}" alt="" width="600">
+    <p>Nuestra institución se fundamenta en el fortalecimiento y la calidad de la Educación Superior Técnico-Profesional, con una propuesta académica que da respuesta a las necesidades productivas de la región y con un modelo educativo, inclusivo, inspirado en la ética, tecnología, innovación y emprendimiento y que promueve la solidaridad social, respeto del medio ambiente y de los derechos humanos. </p>
+    <p>El objetivo de la creación de este sitio es proporcionar una plataforma donde los usuarios puedan gestionar productos dentro de distintas categorías de manera eficiente.</p>
+    <p>Actualmente tenemos {{ categorias_count }} categorías y {{ productos_count }} productos en el sistema.</p>
+</div>
+
+{% endblock content %}
+
