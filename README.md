@@ -17,7 +17,7 @@ Tecnologías utilizadas
 -Python
 -Django
 -HTML / CSS
--SQL (SQL Server / SQLite)
+-SQLite
 
 Capturas de pantalla
 ![ed](https://github.com/user-attachments/assets/6224226b-1947-4a82-8a17-8e3958aa12b8)
